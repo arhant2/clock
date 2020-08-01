@@ -6,9 +6,9 @@ const sec = document.querySelector(".sec");
 
 setInterval(function () {
     const d = new Date();
-    const h = d.getHours() % 12;
-    const m = d.getMinutes();
     const s = d.getSeconds();
+    const m = d.getMinutes() + s / 60;
+    const h = d.getHours() + m / 60;
     // console.log(h + " " + " " + m + " " + s);
     hour.style.transform = "translate(259.5px, 259.5px) rotate(" + (h * 30 + 270) + "deg)";
     min.style.transform = "translate(260.5px, 260.5px) rotate(" + (m * 6 + 270) + "deg)";
