@@ -85,19 +85,19 @@
     width: 140px;
     height: 5px;
     transform: translate(250px, 259.5px) rotate(0deg);
-    transform-origin: 0 0;
+    transform-origin: 0 50%;
 }
 
 .min{
     width: 170px;
     height: 3px;
     transform: translate(250px, 260.5px) rotate(30deg);
-    transform-origin: 0 0;
+    transform-origin: 0 50%;
 }
 
 .sec{
     width: 200px;
     height: 1.5px;
     transform: translate(250px, 261.25px) rotate(60deg);
-    transform-origin: 0 0;
+    transform-origin: 0 50%;
 }
