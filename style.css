@@ -7,6 +7,7 @@
     height: 500px;
     margin: auto;
     padding: 0;
+    margin-top: 20px;
 }
 
 .time{
@@ -73,6 +74,7 @@
     height: 24px;
     border-radius: 50%;
     transform: translate(250px, 250px);
+    z-index: 5;
 }
 
 .needle{
@@ -100,4 +102,16 @@
     height: 1.5px;
     transform: translate(262px, 261.25px) rotate(270deg);
     transform-origin: 0 50%;
+    background: red;
+    z-index: 2;
+}
+
+.outer-circle{
+    display: inline-block;
+    position: absolute;
+    transform: translate(-8px, -8px);
+    width: 540px;
+    height: 540px;
+    border-radius: 50%;
+    border: 2px solid black;
 }
