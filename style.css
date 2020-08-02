@@ -93,14 +93,14 @@
 .min{
     width: 170px;
     height: 3px;
-    transform: translate(262px, 260.5px) rotate(270deg);
+    transform: translate(262px, 260.5px) rotate(0deg);
     transform-origin: 0 50%;
 }
 
 .sec{
     width: 200px;
     height: 1.5px;
-    transform: translate(262px, 261.25px) rotate(270deg);
+    transform: translate(262px, 261.25px) rotate(315deg);
     transform-origin: 0 50%;
     background: red;
     z-index: 2;
